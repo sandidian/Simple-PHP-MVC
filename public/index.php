@@ -32,6 +32,8 @@ require APP . 'libs/helper.php';
 
 // load application class
 require APP . 'core/application.php';
+require APP . 'core/model.php';
+require APP . 'core/query.php';
 require APP . 'core/controller.php';
 
 // start the application

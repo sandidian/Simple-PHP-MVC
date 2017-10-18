@@ -12,17 +12,11 @@ class HomeController extends Controller
     }
 
    
-    public function exampleOne()
+    public function about()
     {
-        return $this->view("home/example_one");
+        return $this->view("home/about");
         
     }
 
-    
-    public function exampleTwo()
-    {
-        return $this->view("home/example_two");
-        
-    }
 
 }

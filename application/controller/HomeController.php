@@ -8,9 +8,7 @@ class HomeController extends Controller
     {
         $model = $this->model("Home");
 
-        echo $model->test();
-
-        // return $this->view("home/index");
+        return $this->view("home/index",['model'=>$model]);
     }
 
    

@@ -43,9 +43,11 @@ class Controller
                 extract($arr_data, EXTR_SKIP);
         }
         ob_start();
+
         include APP . 'view/_templates/header.php';
         include ($data);
         include APP . 'view/_templates/footer.php';
+        
         if($kembalikan_string == true){
                 $content = ob_get_contents();
                 @ob_end_clean();

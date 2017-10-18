@@ -2,8 +2,6 @@
 
 class Controller
 {
-    
-    
 
     public function model($model)
     {
@@ -11,7 +9,6 @@ class Controller
 
         return new $model();
     }
-
 
     public function view($file, $arr_data = [], $kembalikan_string = false){
 

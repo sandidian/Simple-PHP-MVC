@@ -6,9 +6,7 @@ class HomeController extends Controller
     
     public function index()
     {
-        $model = $this->model("Home");
-
-        return $this->view("home/index",['model'=>$model]);
+        return $this->view("home/index");
     }
 
    

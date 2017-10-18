@@ -2,7 +2,8 @@
 SQLyog Ultimate - MySQL GUI v8.21 
 MySQL - 5.5.5-10.1.26-MariaDB : Database - learn
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -30,7 +31,7 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`name`,`username`,`password`) values (1,'Sandi Dian Lesmana Putra','sandidianlp','sandidianlp'),(2,'Adit Mulyadi','adit','adit'),(3,'Ikhtiary Rizky','tiar','tiar');
+insert  into `user`(`id`,`name`,`username`,`password`) values (1,'Sandi Dian Lesmana Putra','sandidianlp','sandidianlp'),(2,'Adit Mulyadi','adit','adit'),(3,'Ikhtiary Rizky','tiar','tiar'),(4,'Eris Susanti','eris','eris');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
